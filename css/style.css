@@ -103,7 +103,7 @@ ul {
 .button1{
     color: #fff;
     text-transform: uppercase;
-    width: 324px;
+    width: 325px;
     border: 1px solid #fff;
     padding: 18px 50px;
     margin: 20px 10px 0 10px;
@@ -154,19 +154,63 @@ ul {
 #experience .heading h2 {
     color: #fff;
 }
+.divider-rigth {
+    float:right;
+    width: 100.2%;
+    height: 4px;
+    background-color:#333;
+    margin: 0 auto 20px;
+}
+.divider-rigth-start {
+    float:right;
+    width: 50%;
+    height: 4px;
+    background-color:#333;
+    margin: 0 auto 20px;
+}
+.divider-left {
+    float: left;
+    width: 100.2%;
+    height: 4px;
+    background-color:#333;
+    margin: 0 auto 20px;
+}
+.divider-rigth-end {
+    
+    float: left;
+    width: 50%;
+    height: 4px;
+    background-color:#333;
+    margin: 0 auto 20px;
+}
 .timeline {
     padding:30px 10px ;
     position: relative;
 }
-.timeline:before {
+.position-rigth, .position-left {
+    margin: 20px 0;
+}
+.position-rigth:before {
     content: " ";
     top: 0;
     bottom: 0;
     position: absolute;
     width: 5px;
     background-color: #333;
-    left: 50%;
+    left: 100%;
     margin-left: -2.5px;
+    height: 100%;
+}
+.position-left:before {
+    content: " ";
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 5px;
+    background-color: #333;
+    left: 0%;
+    margin-left: -2.5px;
+    height: 105.1%;
 }
 .timeline > li {
     margin-bottom: 20px;
@@ -180,27 +224,41 @@ ul {
 .timeline > li:after {
     clear: both;
 }
-.timeline li .timeline-badge {
-    color: #0074d9;
-    width: 30px;
-    line-height: 30px;
-    font-size: 18px;
-    text-align: center;
+.timeline li .position-rigth .timeline-badge {
     position: absolute;
-    top: 27px;
-    left: 50%;
-    margin-left: -15px;
-    background-color: #D3D3D3;
-    border-radius: 50%;
-    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 25px;
+    top: 48px;
+    left: 100%;
+    margin-left: -25px;
+    /* background-color: #D3D3D3;
+    border-radius: 50%; */
+}
+.timeline li .position-left .timeline-badge {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 25px;
+    top: 48px;
+    left: 0%;
+    margin-left: -25px;
+    /* background-color: #D3D3D3;
+    border-radius: 50%; */
 }
 .timeline-panel-container {
-    width: 50%;
-    float: left;
+    width: 98%;
+    float: right;
 }
 .timeline-panel-container-inverted {
-    width: 50%;
-    float: right;
+    width: 98%;
+    float: left;
 }
 .timeline-panel {
     width: 86%;
