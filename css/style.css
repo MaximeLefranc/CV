@@ -77,6 +77,10 @@ ul {
     margin: 0px auto 30px;
 }
 
+.profile-picture img {
+    filter: drop-shadow(5px 0px 20px #222);
+}
+
 #about .heading h1 {
     color: #fff;
     text-transform: uppercase;
