@@ -106,8 +106,8 @@ ul {
     text-transform: uppercase;
     width: 325px;
     border: 1px solid #fff;
-    padding: 18px 50px;
-    margin: 20px 10px 0 10px;
+    padding: 15px 50px;
+    margin: 20px 10px 20px 10px;
     font-weight: bold;
     display: inline-block;
     border-radius: 3px;
@@ -121,6 +121,16 @@ ul {
     border: 1px solid #0074d9;
 }
 
+#linkedin {
+    color: #fff;
+    font-size: 70px;
+    transition: all 0.3s ease-in 0s;
+}
+ 
+#linkedin:hover {
+    font-size: 75px;
+    color: black;
+}
 /*      SKILLS     */
 
 #skills .heading h2 {
