@@ -133,17 +133,23 @@ ul {
     
 }
 
+.heading .divider.white.profile1{
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+.heading .divider.white.profile2{
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+}
+
 .profile {
   display: block;
-  width: 80%;
   margin: 1rem auto;
   font-size: 1.4rem;
-  color: #0074d9;
+  color: white;
 }
 /*      SKILLS     */
-#skills .divider {
-    color: #0074d9;
-}
 
 #skills .heading h2 {
     color: #0074d9;
