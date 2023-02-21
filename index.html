@@ -1,573 +1,487 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CV Maxime Lefranc</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body data-bs-target="myNavBar">
-    <nav id="myNavBar" class="navbar navbar-expand-lg navbar-dark sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#about">Moi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Compétences</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Expériences</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#recommendations">Recommandations</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<head>
+  <title>CV Maxime Lefranc</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <link href="css/style.css" type="text/css" rel="stylesheet" />
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet" />
+</head>
 
-    <section id="about" class="container-fluid">
-      <div class="profile-picture">
-        <img class="col-8 col-lg-4 rounded-circle" src="images/IMG_1394.png" />
-      </div>
-      <div class="heading">
-        <h1>Hello, c'est moi Max</h1>
-        <h3>Développeur Web / Web mobile</h3>
-        <a class="button1" href="./docs/new_CV_Max_2022_FR.pdf" target="_blank"
-          ><img
-            src="https://img.icons8.com/color/30/000000/france-circular.png"
-          />
-          <div></div>
-          Télécharger CV
-        </a>
-        <a class="button1" href="./docs/new_CV_Max_2022_ES.pdf" target="_blank"
-          ><img
-            src="https://img.icons8.com/fluent/30/000000/colombia-circular.png"
-          />
-          <div></div>
-          Descargar Hoja de Vida
-        </a>
-        <a
-          class="button1"
-          onclick="window.open('https:\/\/terminal-cv-react.vercel.app\/','name','width=1200,height=500')"
-          ><img
-            src="https://img.icons8.com/fluent/30/000000/usa-circular.png"
-          />
-          <div></div>
-          && back &#128521;
-        </a>
-        <br />
-        <a
-          class="social__icons"
-          href="https://www.linkedin.com/in/max34"
-          target="_blank"
-          ><span class="bi-linkedin"></span
-        ></a>
-        <a
-          class="social__icons"
-          href="https://www.instagram.com/el.gringo.34"
-          target="_blank"
-          ><span class="bi bi-instagram"></span
-        ></a>
-        <a
-          class="social__icons"
-          href="https://twitter.com/MaxiLefranc"
-          target="_blank"
-          ><span class="bi bi-twitter"></span
-        ></a>
-        <a
-          class="social__icons"
-          href="https://github.com/MaximeLefranc"
-          target="_blank"
-          ><span class="bi bi-github"></span
-        ></a>
-        <a
-          class="social__icons"
-          href="mailto:maxilefranc@gmail.com"
-          target="_blank"
-          ><span class="bi bi-envelope"></span
-        ></a>
-        <div class="divider white profile1"></div>
-        <cite class="profile col-lg-8"
-          >"Arrivé au bout de mes possibilités d’évolution dans mon ancien
-          métier, il était temps pour moi de me lancer dans une reconversion
-          professionnelle dans un milieu qui me passionne depuis toujours, le
-          développement web.<br />
-          Après avoir suivi un formation intensive de développement full-stack
-          avec une spécialisation en React, je suis apte à affronter les
-          nouveaux défis qui me seront proposés.<br />
-          Rigueur, dynamisme, perfectionnisme et soif d’apprendre me
-          caractérisent."
-        </cite>
-        <div class="divider white profile2"></div>
-      </div>
-    </section>
-
-    <section id="skills">
-      <div class="divider"></div>
-      <div class="heading">
-        <h2>Compétences</h2>
-      </div>
-      <div class="container">
-        <div class="row d-flex justify-content-around">
-          <div class="img">
-            <img src="./images/HTML.png" class="h-100" alt="HTML logo" />
-            <p>HTML</p>
-          </div>
-          <div class="img">
-            <img src="./images/CSS.png" class="h-100" alt="CSS logo" />
-            <p>CSS</p>
-          </div>
-          <div class="img">
-            <img src="./images/JS.png" class="h-100" alt="HTML logo" />
-            <p>JavaScript</p>
-          </div>
-          <div class="img">
-            <img src="./images/TS.png" class="h-100" alt="HTML logo" />
-            <p>TypeScript</p>
-          </div>
-          <div class="img" style="width: 18rem">
-            <img src="./images/Next.png" class="h-100" alt="Next.JS logo" />
-            <p>Next.JS</p>
-          </div>
-          <div class="img">
-            <img src="./images/REACT.png" class="h-100" alt="HTML logo" />
-            <p>React</p>
-          </div>
-          <div class="img">
-            <img src="./images/SASS.png" class="h-100" alt="HTML logo" />
-            <p>SASS</p>
-          </div>
-          <div class="img">
-            <img src="./images/Bootstrap.png" class="h-100" alt="HTML logo" />
-            <p>Bootstrap</p>
-          </div>
-          <div class="img" style="width: 18rem">
-            <img src="./images/PHP.png" class="h-100" alt="HTML logo" />
-            <p>PHP</p>
-          </div>
-          <div class="img" style="width: 18rem">
-            <img src="./images/MySql.png" class="h-100" alt="HTML logo" />
-            <p>MySql</p>
-          </div>
-          <div class="img" style="width: 18rem">
-            <img src="./images/mongoDB.png" class="h-100" alt="MongoDB logo" />
-            <p>MongoDB</p>
-          </div>
-          <div class="img" style="width: 18rem">
-            <img
-              src="./images/Github.png"
-              class="h-100"
-              alt="Git/GitHub logo"
-            />
-            <p>Git + Git-Hub</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="experience">
-      <div class="container">
-        <div class="divider white"></div>
-        <div id="special" class="heading">
-          <h2>Expériences Professionnelles</h2>
-        </div>
-        <span class="bi-arrow-up-square-fill"></span>
-        <ul class="timeline">
-          <li>
-            <div class="divider-rigth-start"></div>
-            <div class="position-rigth">
-              <div class="timeline-badge">
-                <span class="bi-briefcase-fill"></span>
-              </div>
-              <div class="timeline-panel-container">
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h3>"ETIENNE®" Narbonne</h3>
-                    <h4>Responsable magasin pilote et Formateur</h4>
-                    <p class="text-muted">
-                      <span class="bi-clock-fill"></span> 2018-2022
-                    </p>
-                  </div>
-                  <div class="timeline-body">
-                    <p>
-                      <span class="bi-check"></span>Formation des nouveaux
-                      franchisés.
-                    </p>
-                    <p>
-                      <span class="bi-check"></span>Gestion des factures et des
-                      fournisseurs.
-                    </p>
-                    <p><span class="bi-check"></span>Gestion d’équipe.</p>
-                    <p><span class="bi-check"></span>Gestion des salaires.</p>
-                    <p><span class="bi-check"></span>Création de planning.</p>
-                    <p><span class="bi-check"></span>Gestion des stock.</p>
-                    <p><span class="bi-check"></span>Gestion des commandes</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+<body data-bs-target="myNavBar">
+  <nav id="myNavBar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#about">Moi</a>
           </li>
-          <li>
-            <div class="divider-left"></div>
-            <div class="position-left">
-              <div class="timeline-badge">
-                <span class="bi-briefcase-fill"></span>
-              </div>
-              <div class="timeline-panel-container-inverted">
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h3>"ETIENNE®" Béziers</h3>
-                    <h4>Responsable magasin pilote</h4>
-                    <p class="text-muted">
-                      <span class="bi-clock-fill"></span> 2013-2018
-                    </p>
-                  </div>
-                  <div class="timeline-body">
-                    <p>
-                      <span class="bi-check"></span>Formation des nouveaux
-                      franchisés.
-                    </p>
-                    <p>
-                      <span class="bi-check"></span>Gestion des factures et des
-                      fournisseurs.
-                    </p>
-                    <p><span class="bi-check"></span>Gestion d’équipe.</p>
-                    <p><span class="bi-check"></span>Gestion des salaires.</p>
-                    <p><span class="bi-check"></span>Création de planning.</p>
-                    <p><span class="bi-check"></span>Gestion des stock.</p>
-                    <p><span class="bi-check"></span>Gestion des commandes</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Compétences</a>
           </li>
-          <li>
-            <div class="divider-rigth"></div>
-            <div class="position-rigth">
-              <div class="timeline-badge">
-                <span class="bi-briefcase-fill"></span>
-              </div>
-              <div class="timeline-panel-container">
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h3>Restaurant<br />"Le Patacrêpe"</h3>
-                    <h4>Serveur</h4>
-                    <p class="text-muted">
-                      <span class="bi-clock-fill"></span> 2013
-                    </p>
-                  </div>
-                  <div class="timeline-body">
-                    <p>
-                      <span class="bi-check"></span>Service à l'assiette et au
-                      plateau.
-                    </p>
-                    <p>
-                      <span class="bi-check"></span>Accueil / Prise de commande
-                      / Encaissement.
-                    </p>
-                    <p><span class="bi-check"></span>Barman.</p>
-                    <p><span class="bi-check"></span>Prise de réservation.</p>
-                    <p>
-                      <span class="bi-check"></span>Application des normes
-                      HACCP.
-                    </p>
-                    <p><span class="bi-check"></span>Nettoyage.</p>
-                    <br />
-                  </div>
-                </div>
-              </div>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Expériences</a>
           </li>
-          <li>
-            <div class="divider-left"></div>
-            <div class="position-left">
-              <div class="timeline-badge">
-                <span class="bi-briefcase-fill"></span>
-              </div>
-              <div class="timeline-panel-container-inverted">
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h3>Restaurant<br />"Au Lavoir"</h3>
-                    <h4>Chef de rang</h4>
-                    <p class="text-muted">
-                      <span class="bi-clock-fill"></span> 2012-2013
-                    </p>
-                  </div>
-                  <div class="timeline-body">
-                    <p>
-                      <span class="bi-check"></span>Gestion d'un rang en
-                      autonomie.
-                    </p>
-                    <p><span class="bi-check"></span>Prise de réservation.</p>
-                    <p>
-                      <span class="bi-check"></span>Accueil / Prise de commande
-                      / Encaissement.
-                    </p>
-                    <p>
-                      <span class="bi-check"></span>Gestion des commis de salle.
-                    </p>
-                    <p>
-                      <span class="bi-check"></span>Application des normes
-                      HACCP.
-                    </p>
-                    <p><span class="bi-check"></span>Nettoyage.</p>
-                    <br />
-                  </div>
-                </div>
-              </div>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
           </li>
-          <li>
-            <div class="divider-rigth"></div>
-            <div class="position-rigth">
-              <div class="timeline-badge">
-                <span class="bi-briefcase-fill"></span>
-              </div>
-              <div class="timeline-panel-container">
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h3>
-                      Hôtel du Palais<br /><span class="bi-star-fill"></span
-                      ><span class="bi-star-fill"></span
-                      ><span class="bi-star-fill"></span
-                      ><span class="bi-star-fill"></span
-                      ><span class="bi-star-fill"></span
-                      ><span class="text-muted"> "Palace"</span>
-                    </h3>
-                    <h4>Chef de rang</h4>
-                    <p class="text-muted">
-                      <span class="bi-clock-fill"></span> 2009-2012
-                    </p>
-                  </div>
-                  <div class="timeline-body">
-                    <br />
-                    <p>
-                      <span class="bi-check"></span>Gestion d'un rang en
-                      autonomie.
-                    </p>
-                    <p><span class="bi-check"></span>Accueil.</p>
-                    <p>
-                      <span class="bi-check"></span>Mise en place du plateau de
-                      fromages.
-                    </p>
-                    <p>
-                      <span class="bi-check"></span>Service à l'assiette clochée
-                      et au guéridon.
-                    </p>
-                    <p>
-                      <span class="bi-check"></span>Découpe en salle de poissons
-                      et viandes / Flambage.
-                    </p>
-                    <p>
-                      <span class="bi-check"></span>Application des normes
-                      HACCP.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
-          <li>
-            <div class="divider-left"></div>
-            <div class="position-left">
-              <div class="timeline-badge">
-                <span class="bi-briefcase-fill"></span>
-              </div>
-              <div class="timeline-panel-container-inverted">
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h3>
-                      Hôtel "le Biarritz"<br /><span class="bi-star-fill"></span
-                      ><span class="bi-star-fill"></span
-                      ><span class="bi-star-fill"></span>
-                    </h3>
-                    <h4>Commis de salle</h4>
-                    <p class="text-muted">
-                      <span class="bi-clock-fill"></span> 2008-2009
-                    </p>
-                  </div>
-                  <div class="timeline-body">
-                    <br />
-                    <p><span class="bi-check"></span>Accueil.</p>
-                    <p><span class="bi-check"></span>Service à l'assiette.</p>
-                    <p><span class="bi-check"></span>Service au plateau.</p>
-                    <p>
-                      <span class="bi-check"></span>Préparation de différents
-                      déserts.
-                    </p>
-                    <p><span class="bi-check"></span>Travail d'office.</p>
-                    <p>
-                      <span class="bi-check"></span>Application des normes
-                      HACCP.
-                    </p>
-                    <p><span class="bi-check"></span>Nettoyage.</p>
-                    <br />
-                  </div>
-                </div>
-              </div>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#recommendations">Recommandations</a>
           </li>
-          <div class="divider-rigth-end"></div>
-          <span class="bi-arrow-down-square-fill"></span>
         </ul>
       </div>
-    </section>
-    <section id="education">
-      <div class="container">
-        <div class="divider"></div>
-        <div class="heading">
-          <h2>éducation</h2>
+    </div>
+  </nav>
+
+  <section id="about" class="container-fluid">
+    <div class="profile-picture">
+      <img class="col-8 col-lg-4 rounded-circle" src="images/IMG_1394.png" />
+    </div>
+    <div class="heading">
+      <h1>Hello, c'est moi Max</h1>
+      <h3>Développeur Web / Web mobile</h3>
+      <a class="button1" href="./docs/new_CV_Max_2022_FR.pdf" target="_blank"><img
+          src="https://img.icons8.com/color/30/000000/france-circular.png" />
+        <div></div>
+        Télécharger CV
+      </a>
+      <a class="button1" href="./docs/new_CV_Max_2022_ES.pdf" target="_blank"><img
+          src="https://img.icons8.com/fluent/30/000000/colombia-circular.png" />
+        <div></div>
+        Descargar Hoja de Vida
+      </a>
+      <a class="button1"
+        onclick="window.open('https:\/\/terminal-cv-react.vercel.app\/','name','width=1200,height=500')"><img
+          src="https://img.icons8.com/fluent/30/000000/usa-circular.png" />
+        <div></div>
+        && back &#128521;
+      </a>
+      <br />
+      <a class="social__icons" href="https://www.linkedin.com/in/max34" target="_blank"><span
+          class="bi-linkedin"></span></a>
+      <a class="social__icons" href="https://www.instagram.com/el.gringo.34" target="_blank"><span
+          class="bi bi-instagram"></span></a>
+      <a class="social__icons" href="https://twitter.com/MaxiLefranc" target="_blank"><span
+          class="bi bi-twitter"></span></a>
+      <a class="social__icons" href="https://github.com/MaximeLefranc" target="_blank"><span
+          class="bi bi-github"></span></a>
+      <a class="social__icons" href="mailto:maxilefranc@gmail.com" target="_blank"><span
+          class="bi bi-envelope"></span></a>
+      <div class="divider white profile1"></div>
+      <cite class="profile col-lg-8">"Arrivé au bout de mes possibilités d’évolution dans mon ancien
+        métier, il était temps pour moi de me lancer dans une reconversion
+        professionnelle dans un milieu qui me passionne depuis toujours, le
+        développement web.<br />
+        Après avoir suivi un formation intensive de développement full-stack
+        avec une spécialisation en React, je suis apte à affronter les
+        nouveaux défis qui me seront proposés.<br />
+        Rigueur, dynamisme, perfectionnisme et soif d’apprendre me
+        caractérisent."
+      </cite>
+      <div class="divider white profile2"></div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="divider"></div>
+    <div class="heading">
+      <h2>Compétences</h2>
+    </div>
+    <div class="container">
+      <div class="row d-flex justify-content-around">
+        <div class="img">
+          <img src="./images/HTML.png" class="h-100" alt="HTML logo" />
+          <p>HTML</p>
         </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="education-block">
-              <h5>2022-2023</h5>
-              <span class="bi-award-fill"></span>
-              <h3>École O'Clock</h3>
-              <h4>Développeur Web</h4>
-              <div class="divider"></div>
-              <p>Développeur Web/Mobile</p>
+        <div class="img">
+          <img src="./images/CSS.png" class="h-100" alt="CSS logo" />
+          <p>CSS</p>
+        </div>
+        <div class="img">
+          <img src="./images/JS.png" class="h-100" alt="JavaScript logo" />
+          <p>JavaScript</p>
+        </div>
+        <div class="img">
+          <img src="./images/TS.png" class="h-100" alt="TypeScript logo" />
+          <p>TypeScript</p>
+        </div>
+        <div class="img" style="width: 18rem">
+          <img src="./images/Next.png" class="h-100" alt="Next.JS logo" />
+          <p>Next.JS</p>
+        </div>
+        <div class="img">
+          <img src="./images/REACT.png" class="h-100" alt="REACT logo" />
+          <p>React</p>
+        </div>
+        <div class="img">
+          <img src="./images/SASS.png" class="h-100" alt="SASS logo" />
+          <p>SASS</p>
+        </div>
+        <div class="img">
+          <img src="./images/symfony-logo-png-transparent.png" class="h-100" alt="Symfony logo" />
+          <p>Symfony</p>
+        </div>
+        <div class="img" style="width: 18rem">
+          <img src="./images/PHP.png" class="h-100" alt="PHP logo" />
+          <p>PHP</p>
+        </div>
+        <div class="img" style="width: 18rem">
+          <img src="./images/MySql.png" class="h-100" alt="My SQL logo" />
+          <p>MySql</p>
+        </div>
+        <div class="img" style="width: 18rem">
+          <img src="./images/mongoDB.png" class="h-100" alt="MongoDB logo" />
+          <p>MongoDB</p>
+        </div>
+        <div class="img" style="width: 18rem">
+          <img src="./images/Github.png" class="h-100" alt="Git/GitHub logo" />
+          <p>Git + Git-Hub</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <div class="container">
+      <div class="divider white"></div>
+      <div id="special" class="heading">
+        <h2>Expériences Professionnelles</h2>
+      </div>
+      <span class="bi-arrow-up-square-fill"></span>
+      <ul class="timeline">
+        <li>
+          <div class="divider-rigth-start"></div>
+          <div class="position-rigth">
+            <div class="timeline-badge">
+              <span class="bi-briefcase-fill"></span>
+            </div>
+            <div class="timeline-panel-container">
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h3>"ETIENNE®" Narbonne</h3>
+                  <h4>Responsable magasin pilote et Formateur</h4>
+                  <p class="text-muted">
+                    <span class="bi-clock-fill"></span> 2018-2022
+                  </p>
+                </div>
+                <div class="timeline-body">
+                  <p>
+                    <span class="bi-check"></span>Formation des nouveaux
+                    franchisés.
+                  </p>
+                  <p>
+                    <span class="bi-check"></span>Gestion des factures et des
+                    fournisseurs.
+                  </p>
+                  <p><span class="bi-check"></span>Gestion d’équipe.</p>
+                  <p><span class="bi-check"></span>Gestion des salaires.</p>
+                  <p><span class="bi-check"></span>Création de planning.</p>
+                  <p><span class="bi-check"></span>Gestion des stock.</p>
+                  <p><span class="bi-check"></span>Gestion des commandes</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="education-block">
-              <h5>2009-2011</h5>
-              <span class="bi-award-fill"></span>
-              <h3>CFA Bayonne</h3>
-              <h4>Brevet Professionnel</h4>
-              <div class="divider"></div>
-              <p>Restaurant</p>
+        </li>
+        <li>
+          <div class="divider-left"></div>
+          <div class="position-left">
+            <div class="timeline-badge">
+              <span class="bi-briefcase-fill"></span>
+            </div>
+            <div class="timeline-panel-container-inverted">
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h3>"ETIENNE®" Béziers</h3>
+                  <h4>Responsable magasin pilote</h4>
+                  <p class="text-muted">
+                    <span class="bi-clock-fill"></span> 2013-2018
+                  </p>
+                </div>
+                <div class="timeline-body">
+                  <p>
+                    <span class="bi-check"></span>Formation des nouveaux
+                    franchisés.
+                  </p>
+                  <p>
+                    <span class="bi-check"></span>Gestion des factures et des
+                    fournisseurs.
+                  </p>
+                  <p><span class="bi-check"></span>Gestion d’équipe.</p>
+                  <p><span class="bi-check"></span>Gestion des salaires.</p>
+                  <p><span class="bi-check"></span>Création de planning.</p>
+                  <p><span class="bi-check"></span>Gestion des stock.</p>
+                  <p><span class="bi-check"></span>Gestion des commandes</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="education-block">
-              <h5>2008-2009</h5>
-              <span class="bi-award-fill"></span>
-              <h3>CFA Bayonne</h3>
-              <h4>C.A.P</h4>
-              <div class="divider"></div>
-              <p>Restaurant</p>
+        </li>
+        <li>
+          <div class="divider-rigth"></div>
+          <div class="position-rigth">
+            <div class="timeline-badge">
+              <span class="bi-briefcase-fill"></span>
             </div>
+            <div class="timeline-panel-container">
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h3>Restaurant<br />"Le Patacrêpe"</h3>
+                  <h4>Serveur</h4>
+                  <p class="text-muted">
+                    <span class="bi-clock-fill"></span> 2013
+                  </p>
+                </div>
+                <div class="timeline-body">
+                  <p>
+                    <span class="bi-check"></span>Service à l'assiette et au
+                    plateau.
+                  </p>
+                  <p>
+                    <span class="bi-check"></span>Accueil / Prise de commande
+                    / Encaissement.
+                  </p>
+                  <p><span class="bi-check"></span>Barman.</p>
+                  <p><span class="bi-check"></span>Prise de réservation.</p>
+                  <p>
+                    <span class="bi-check"></span>Application des normes
+                    HACCP.
+                  </p>
+                  <p><span class="bi-check"></span>Nettoyage.</p>
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="divider-left"></div>
+          <div class="position-left">
+            <div class="timeline-badge">
+              <span class="bi-briefcase-fill"></span>
+            </div>
+            <div class="timeline-panel-container-inverted">
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h3>Restaurant<br />"Au Lavoir"</h3>
+                  <h4>Chef de rang</h4>
+                  <p class="text-muted">
+                    <span class="bi-clock-fill"></span> 2012-2013
+                  </p>
+                </div>
+                <div class="timeline-body">
+                  <p>
+                    <span class="bi-check"></span>Gestion d'un rang en
+                    autonomie.
+                  </p>
+                  <p><span class="bi-check"></span>Prise de réservation.</p>
+                  <p>
+                    <span class="bi-check"></span>Accueil / Prise de commande
+                    / Encaissement.
+                  </p>
+                  <p>
+                    <span class="bi-check"></span>Gestion des commis de salle.
+                  </p>
+                  <p>
+                    <span class="bi-check"></span>Application des normes
+                    HACCP.
+                  </p>
+                  <p><span class="bi-check"></span>Nettoyage.</p>
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="divider-rigth"></div>
+          <div class="position-rigth">
+            <div class="timeline-badge">
+              <span class="bi-briefcase-fill"></span>
+            </div>
+            <div class="timeline-panel-container">
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h3>
+                    Hôtel du Palais<br /><span class="bi-star-fill"></span><span class="bi-star-fill"></span><span
+                      class="bi-star-fill"></span><span class="bi-star-fill"></span><span
+                      class="bi-star-fill"></span><span class="text-muted"> "Palace"</span>
+                  </h3>
+                  <h4>Chef de rang</h4>
+                  <p class="text-muted">
+                    <span class="bi-clock-fill"></span> 2009-2012
+                  </p>
+                </div>
+                <div class="timeline-body">
+                  <br />
+                  <p>
+                    <span class="bi-check"></span>Gestion d'un rang en
+                    autonomie.
+                  </p>
+                  <p><span class="bi-check"></span>Accueil.</p>
+                  <p>
+                    <span class="bi-check"></span>Mise en place du plateau de
+                    fromages.
+                  </p>
+                  <p>
+                    <span class="bi-check"></span>Service à l'assiette clochée
+                    et au guéridon.
+                  </p>
+                  <p>
+                    <span class="bi-check"></span>Découpe en salle de poissons
+                    et viandes / Flambage.
+                  </p>
+                  <p>
+                    <span class="bi-check"></span>Application des normes
+                    HACCP.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="divider-left"></div>
+          <div class="position-left">
+            <div class="timeline-badge">
+              <span class="bi-briefcase-fill"></span>
+            </div>
+            <div class="timeline-panel-container-inverted">
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h3>
+                    Hôtel "le Biarritz"<br /><span class="bi-star-fill"></span><span class="bi-star-fill"></span><span
+                      class="bi-star-fill"></span>
+                  </h3>
+                  <h4>Commis de salle</h4>
+                  <p class="text-muted">
+                    <span class="bi-clock-fill"></span> 2008-2009
+                  </p>
+                </div>
+                <div class="timeline-body">
+                  <br />
+                  <p><span class="bi-check"></span>Accueil.</p>
+                  <p><span class="bi-check"></span>Service à l'assiette.</p>
+                  <p><span class="bi-check"></span>Service au plateau.</p>
+                  <p>
+                    <span class="bi-check"></span>Préparation de différents
+                    déserts.
+                  </p>
+                  <p><span class="bi-check"></span>Travail d'office.</p>
+                  <p>
+                    <span class="bi-check"></span>Application des normes
+                    HACCP.
+                  </p>
+                  <p><span class="bi-check"></span>Nettoyage.</p>
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <div class="divider-rigth-end"></div>
+        <span class="bi-arrow-down-square-fill"></span>
+      </ul>
+    </div>
+  </section>
+  <section id="education">
+    <div class="container">
+      <div class="divider"></div>
+      <div class="heading">
+        <h2>éducation</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="education-block">
+            <h5>2022-2023</h5>
+            <span class="bi-award-fill"></span>
+            <h3>École O'Clock</h3>
+            <h4>Développeur Web</h4>
+            <div class="divider"></div>
+            <p>Développeur Web/Mobile</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="education-block">
+            <h5>2009-2011</h5>
+            <span class="bi-award-fill"></span>
+            <h3>CFA Bayonne</h3>
+            <h4>Brevet Professionnel</h4>
+            <div class="divider"></div>
+            <p>Restaurant</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="education-block">
+            <h5>2008-2009</h5>
+            <span class="bi-award-fill"></span>
+            <h3>CFA Bayonne</h3>
+            <h4>C.A.P</h4>
+            <div class="divider"></div>
+            <p>Restaurant</p>
           </div>
         </div>
       </div>
-    </section>
-    <section id="portfolio">
-      <div class="container">
-        <div class="divider white"></div>
-        <div class="heading">
-          <h2>portfolio</h2>
+    </div>
+  </section>
+  <section id="portfolio">
+    <div class="container">
+      <div class="divider white"></div>
+      <div class="heading">
+        <h2>portfolio</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <a href="https://trocservices.fr" target="_blank">
+            <img src="images/troc-service.png" class="img-thumbnail" alt="troc-service project picture" />
+          </a>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-            <a href="https://trocservices.fr" target="_blank">
-              <img
-                src="images/troc-service.png"
-                class="img-thumbnail"
-                alt="troc-service project picture"
-              />
-            </a>
-          </div>
-          <div class="col-md-6">
-            <a href="https://test-next-js-gules.vercel.app/" target="_blank">
-              <img
-                src="images/next.js.png"
-                class="img-thumbnail"
-                alt="Next.JS project picture"
-              />
-            </a>
-          </div>
+        <div class="col-md-6">
+          <a href="https://test-next-js-gules.vercel.app/" target="_blank">
+            <img src="images/next.js.png" class="img-thumbnail" alt="Next.JS project picture" />
+          </a>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-            <a
-              onclick="window.open('https:\/\/terminal-cv-react.vercel.app\/','name','width=1200,height=500')"
-            >
-              <img
-                src="images/Terminal-cv.png"
-                class="img-thumbnail"
-                alt="Terminal picture"
-              />
-            </a>
-          </div>
-          <div class="col-md-6">
-            <a href="https://git-hub-flax.vercel.app/" target="_blank">
-              <img
-                src="images/react_github.png"
-                class="img-thumbnail"
-                alt="React Git-Hub project picture"
-              />
-            </a>
-          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <a onclick="window.open('https:\/\/terminal-cv-react.vercel.app\/','name','width=1200,height=500')">
+            <img src="images/Terminal-cv.png" class="img-thumbnail" alt="Terminal picture" />
+          </a>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-            <a
-              href="https://maximelefranc.github.io/Le-jeu-du-serpent-V1/"
-              target="_blank"
-            >
-              <img
-                src="images/Le Jeu du Serpent.png"
-                class="img-thumbnail"
-                alt="snake js picture"
-              />
-            </a>
-          </div>
-          <div class="col-md-6">
-            <a
-              href="https://maximelefranc.github.io/Travel-Agency/"
-              target="_blank"
-            >
-              <img
-                src="images/Travel Agency..png"
-                class="img-thumbnail"
-                alt="Travel Agency."
-              />
-            </a>
-          </div>
-          <!-- <div class="row">
+        <div class="col-md-6">
+          <a href="https://git-hub-flax.vercel.app/" target="_blank">
+            <img src="images/react_github.png" class="img-thumbnail" alt="React Git-Hub project picture" />
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <a href="https://maximelefranc.github.io/Le-jeu-du-serpent-V1/" target="_blank">
+            <img src="images/Le Jeu du Serpent.png" class="img-thumbnail" alt="snake js picture" />
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="https://maximelefranc.github.io/Travel-Agency/" target="_blank">
+            <img src="images/Travel Agency..png" class="img-thumbnail" alt="Travel Agency." />
+          </a>
+        </div>
+        <!-- <div class="row">
             <div class="col-md-6 mx-auto">
               <a href="#about">
                 <img
@@ -578,91 +492,67 @@
               </a>
             </div>
           </div> -->
-        </div>
       </div>
-    </section>
-    <section id="recommendations">
-      <div class="container">
-        <div class="divider"></div>
-        <div class="heading">
-          <h2>Recommandations</h2>
-        </div>
-        <div
-          id="myCarousel"
-          class="carousel carousel-dark slide text-center"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <h3>
-                "Maxime a contribué avec efficacité et dévouement dans les
-                missions qui lui ont été confiées au sein du groupe ETIENNE®
-                Coffee & Shop. Je le recommande sans réserve et garde un
-                excellent souvenir de notre collaboration.
-              </h3>
-              <br />
-              <h4>Cédric Chazelle, Co-Fondateur ETIENNE® Coffee & Shop</h4>
-              <p class="text-muted">
-                <span class="bi-linkedin"></span> LinkedIn
-              </p>
-            </div>
-            <div class="carousel-item" data-bs-interval="8000">
-              <h3>
-                "Impliqué dans son travail avec le sens du détail, j'ai apprécié
-                travailler avec Maxime qui a su me transmettre ses
-                connaissances. Responsabilité, professionnalisme et honnêteté
-                qualifient très bien Maxime."
-              </h3>
-              <br />
-              <h4>
-                Fabien Di Maio, Animateur National Réseau ETIENNE® Coffee & Shop
-              </h4>
-              <p class="text-muted">
-                <span class="bi-linkedin"></span> LinkedIn
-              </p>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+    </div>
+  </section>
+  <section id="recommendations">
+    <div class="container">
+      <div class="divider"></div>
+      <div class="heading">
+        <h2>Recommandations</h2>
       </div>
-    </section>
+      <div id="myCarousel" class="carousel carousel-dark slide text-center" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <h3>
+              "Maxime a contribué avec efficacité et dévouement dans les
+              missions qui lui ont été confiées au sein du groupe ETIENNE®
+              Coffee & Shop. Je le recommande sans réserve et garde un
+              excellent souvenir de notre collaboration.
+            </h3>
+            <br />
+            <h4>Cédric Chazelle, Co-Fondateur ETIENNE® Coffee & Shop</h4>
+            <p class="text-muted">
+              <span class="bi-linkedin"></span> LinkedIn
+            </p>
+          </div>
+          <div class="carousel-item" data-bs-interval="8000">
+            <h3>
+              "Impliqué dans son travail avec le sens du détail, j'ai apprécié
+              travailler avec Maxime qui a su me transmettre ses
+              connaissances. Responsabilité, professionnalisme et honnêteté
+              qualifient très bien Maxime."
+            </h3>
+            <br />
+            <h4>
+              Fabien Di Maio, Animateur National Réseau ETIENNE® Coffee & Shop
+            </h4>
+            <p class="text-muted">
+              <span class="bi-linkedin"></span> LinkedIn
+            </p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
 
-    <footer class="text-center">
-      <a href="#about"><span class="bi-chevron-up"></span></a>
-      <h5>&copy; Maxime Lefranc</h5>
-    </footer>
-  </body>
+  <footer class="text-center">
+    <a href="#about"><span class="bi-chevron-up"></span></a>
+    <h5>&copy; Maxime Lefranc</h5>
+  </footer>
+</body>
+
 </html>
